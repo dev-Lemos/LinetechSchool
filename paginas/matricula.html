@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cadastro</title>
+
+</head>
+<body style="background: url('../imagens/fundo.png') no-repeat">
+        <center> <img src="../imagens/logotipolinetech.png" alt="logotipolinetech">
+            <form action="" method="POST">
+                <h1>FAÇA SUA MATRÍCULA!</h1>
+                
+                <label for="nome">Nome </label><input type="text" name="nome" id="nome"><br><br>
+                <label for="email">Email </label><input type="email" name="email" id="email"><br><br>
+                <label for="senha">Senha </label><input type="password" name="senha" id="senha"> <br><br>
+
+                <label for="rg">RG </label><input type="number" name="rg" id="rg">
+                <label for="cpf">CPF </label><input type="number" name="cpf" id="cpf"><br><br>
+                <label for="sexo">Sexo </label>
+                <input type="radio" name="genero" value="masculino" checked>Masculino
+                <input type="radio" name="genero" value="feminino">Feminino
+                <input type="radio" name="genero" value="outro">Outro <br><br>
+
+                <label for="endereco">Endereço </label><input type="text" id="endereco">
+                <label for="numero">Nº </label><input type="number" name="numero" id="numero"><br><br>
+                <label for="complemento">Complemento </label><input type="text" name="complemento" id="complemento">
+                <label for="bairro">Bairro </label><input type="text" name="bairro" id="bairro"><br><br>
+                <label for="cidade">Cidade</label>
+                <select name="cidade">
+                    <option value="vazio"> Selecione sua cidade</option>
+                    <option value="">São Paulo</option>
+                    <option value="">Guarulhos</option>
+                    <option value="">Campinas</option>
+                    <option value="">São Bernardo do Campo</option>
+                    <option value="">Santo André</option>
+                    <option value="">São José dos Campos</option>
+                    <option value="">Osasco</option>
+                    <option value="">Carapicuíba</option>
+                    <option value="">Barueri</option>
+                </select>
+                <label for="cep">CEP </label><input type="numero" name="cep" id="cep"><br><br>
+                <fieldset>
+                    <legend>Disciplinas Favoritas</legend>
+                    
+                    <input type="checkbox" name="ltt" id="ltt"><label for="ltt">Linguagem, Trabalho e Técnologia</label><br>
+                    <input type="checkbox" name="aps" id="aps"><label for="aps">Análise e Projeto de Sistemas</label><br>
+                    <input type="checkbox" name="fi" id="fi"><label for="fi">Fundamentos de Informática</label><br>
+                    <input type="checkbox" name="pa" id="pa"><label for="pa">Programação e Algoritmos</label><br>
+                    <input type="checkbox" name="tp" id="tp"><label for="tp">Técnicas de Programação</label><br>
+                    <input type="checkbox" name="pw" id="pw"><label for="pw">Programação Web</label><br>
+                    <input type="checkbox" name="bd" id="bd"><label for="bd">Banco de Dados</label><br>
+                    <input type="checkbox" name="dd" id="dd"><label for="dd">Design Digital</label><br>
+                </fieldset><br>
+                <input type="submit" value="Cadastrar"> <input type="reset" value="limpar"> <button><a href="../index.html">Página inicial</a></button>
+            </form>
+                
+        </center>
+</body>
+</html>
